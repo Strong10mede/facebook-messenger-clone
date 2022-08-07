@@ -1,5 +1,5 @@
 .message {
-  margin: 0 0.75rem;
+  margin: 0.25rem 0.75rem;
   padding: 0.75rem;
   width: fit-content;
 }
@@ -16,6 +16,7 @@
 
 .message__guestCard {
   background-color: #e9e9eb !important;
+  color: #000 !important;
 }
 
 .alignLeft {
