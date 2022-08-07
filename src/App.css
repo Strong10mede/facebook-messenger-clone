@@ -1,3 +1,61 @@
 .app {
   text-align: center;
 }
+
+.logo {
+  height: 3rem;
+  width: 3rem;
+  margin-right: 0.75rem;
+}
+
+.app__header {
+  position: fixed;
+  top: 0;
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  z-index: 999;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+.app__form {
+  padding: 1.25rem;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  width: 90%;
+  background-color: #e9e9eb;
+  margin: 1.25rem;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+.app__messageContainer {
+  margin-bottom: 6.25rem !important;
+  margin-top: 8.5rem !important;
+}
+
+.app__formControl {
+  display: flex !important;
+  align-items: center;
+  flex-direction: row !important;
+  justify-content: space-between;
+  padding-right: 1.25rem !important;
+}
+
+.app__input {
+  flex: 1;
+}
+
+.app__iconbutton {
+  flex: 0;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
